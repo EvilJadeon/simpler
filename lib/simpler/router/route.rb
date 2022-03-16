@@ -14,7 +14,6 @@ module Simpler
       def match?(method, path)
         @method == method && path.match(@path)
       end
-
     end
   end
 end
